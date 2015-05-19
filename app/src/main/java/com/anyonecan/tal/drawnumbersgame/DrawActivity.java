@@ -58,7 +58,7 @@ public class DrawActivity extends ActionBarActivity implements View.OnClickListe
     }
 
     public void onClick(View view) {
-        
+
         if (view.getId() == R.id.btn_send) {
             File pictureFile = getOutputMediaFile();
             if (pictureFile == null) {
